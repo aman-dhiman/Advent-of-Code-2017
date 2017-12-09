@@ -1,5 +1,5 @@
 # Advent-of-Code-2017
-Solutions for [adventofcode.com] puzzles 2017.
+Solutions for [Advent of Code](adventofcode.com) puzzles 2017.
 
 ## Naming convention:
 Each script is named after the day and part number of the puzzle. First number is the day and second is the part. If part number is missing, that means that the script for that day will output result for all parts of the puzzle separated by a space.
