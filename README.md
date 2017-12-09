@@ -21,7 +21,7 @@ Input file = whenever the input has multiple values, save and use it as a file
 
 ### For eg:
 
-- Day 1: python 1.py \<Input File\>
+- Day 1: python 1part1.py \<Input File\>
 - Day 2: python 2part1.py \<Input File\>
 - Day 3: python 3part1.py \<Puzzle Input\>
 - Day 7: python 7part2.py \<Puzzle Input\> \<Extra\>
