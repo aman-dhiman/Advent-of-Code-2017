@@ -14,16 +14,16 @@ Each script would be run as following:
 
 ```python <Script> [Puzzle Input/ Input File] [Extras]```
 
-Puzzle input = whenever a single input is provided for a puzzle, use it as is
+Puzzle input = whenever a single really short (max 10 char) input is provided for a puzzle, use it as is in the command line
 
 Input file = whenever the input has multiple values, save and use it as a file
 
 ### For eg:
 
 - Day 1: python 1part1.py \<Input File\>
-- Day 2: python 2part1.py \<Input File\>
-- Day 6: python 6.py \<Puzzle Input\>
-- Day 7: python 7part2.py \<Puzzle Input\> \<Extra\>
+- Day 3: python 3part1.py \<Puzzle Input\>
+- Day 6: python 6.py \<Input File\>\
+- Day 7: python 7part2.py \<Input File\> \<Extra\>
 
 ### Extras
 
