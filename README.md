@@ -6,7 +6,6 @@ Each script is named after the day and part number of the puzzle. First number i
 
 ### For eg: 
 
-- Day 1 puzzle has only 1 part, so 1.py will suffice.
 - Day 2 puzzle has 2 parts, so 2part1.py will solve the first part and 2part2.py will solve the second one.
 - Day 6 has two parts too but only one file (6.py). So, 6.py will solve for both parts and output results separated by a space.
 
@@ -23,7 +22,7 @@ Input file = whenever the input has multiple values, save and use it as a file
 
 - Day 1: python 1part1.py \<Input File\>
 - Day 2: python 2part1.py \<Input File\>
-- Day 3: python 3part1.py \<Puzzle Input\>
+- Day 6: python 6.py \<Puzzle Input\>
 - Day 7: python 7part2.py \<Puzzle Input\> \<Extra\>
 
 ### Extras
