@@ -53,7 +53,14 @@ def fillArray(array):
     return array
 
 fillArray(array)
+closeval = 0
+index = 0
 for i in array:
     for j in i:
         if j > num:
-            print j
+            if index == 0:
+                closeval = j
+            elif j < closeval:
+                closeval = j
+            index+=1
+print int(closeval)
