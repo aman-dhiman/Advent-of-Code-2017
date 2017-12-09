@@ -34,4 +34,4 @@ The following are the required extras for the scripts:
 
 ### Special Cases
 
-- Day 3, Part 2: If the script doesn't output anything, increase the size of array on line 6 in 3part2.py. The array can only be an odd numbered square array.
+- Day 3, Part 2: If the script outputs 0, increase the size of array on line 6 in 3part2.py. The array can only be an odd numbered square array.
