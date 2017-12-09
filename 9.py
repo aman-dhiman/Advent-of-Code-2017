@@ -5,13 +5,12 @@ file = open(filename, 'r')
 
 line = file.readline()
 line = line.strip('\n')
-index = 0
 garbage = False
 ignore = 1
 level = 0
 score = 0
 summ = 0
-for cur,char in enumerate(line):
+for char in line:
     ignore+=1
     if ignore >= 2 and garbage == True and char != '!' and char != '>':
         summ+=1
