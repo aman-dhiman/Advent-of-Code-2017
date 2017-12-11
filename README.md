@@ -12,16 +12,16 @@ Each script is named after the day and part number of the puzzle. First number i
 ## Usage for each script:
 Each script would be run as following:
 
-```python <Script> [Puzzle Input/ Input File] [Extras]```
+```python <Script> [Input File] [Extras]```
 
-Puzzle input = whenever a single really short (max 10 char) input is provided for a puzzle, use it as is in the command line
+Input file = The puzzle input saved as a file
 
-Input file = whenever the input has multiple values, save and use it as a file
+Extras = Any extra arguments required for the script. Extras, if any required, are listed below.
 
 ### For eg:
 
 - Day 1: python 1part1.py \<Input File\>
-- Day 3: python 3part1.py \<Puzzle Input\>
+- Day 3: python 3part1.py \<Input File\>
 - Day 6: python 6.py \<Input File\>
 - Day 7: python 7part2.py \<Input File\> \<Extras\>
 
@@ -30,7 +30,3 @@ Input file = whenever the input has multiple values, save and use it as a file
 The following are the required extras for the scripts:
 
 - Day 7, Part 2: Output of 7part1.py
-
-### Special Cases
-
-- Day 3, Part 2: If the script outputs 0, increase the size of array on line 6 in 3part2.py. The array can only be an odd numbered square array.
