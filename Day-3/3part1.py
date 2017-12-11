@@ -1,6 +1,8 @@
 import sys
 
-num = int(sys.argv[1])
+filename = str(sys.argv[1])
+file = open(filename,'r')
+num = int(file.readline().strip('\n'))
 
 def totalinstep(step):
     summ = 1
