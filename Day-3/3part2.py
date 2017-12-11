@@ -1,9 +1,11 @@
 import numpy
 import sys
 
-num = int(sys.argv[1])
-
-array = numpy.zeros((9,9))
+filename = str(sys.argv[1])
+file = open(filename,'r')
+num = int(file.readline().strip('\n'))
+x,y = 1,1
+array = numpy.zeros((x,y))
 
 def right(x,y):
     return x+1,y
@@ -53,6 +55,11 @@ def fillArray(array):
     return array
 
 fillArray(array)
+while numpy.amax(array) <= num:
+    x+=2
+    y+=2
+    array = numpy.zeros((x,y))
+    fillArray(array)
 closeval = 0
 index = 0
 for i in array:
