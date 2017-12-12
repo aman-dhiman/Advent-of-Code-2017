@@ -1,6 +1,5 @@
 import sys
 
-# sys.setrecursionlimit(20000)
 filename = str(sys.argv[1])
 file = open(filename, 'r')
 
@@ -30,11 +29,9 @@ for line in file:
     for index,id in enumerate(line):
         line[index] = int(id)
     comm[line[0]] = line[1:]
-# for index,id in enumerate(comm):
 
 for index in range(len(comm)):
     glist = sorted(getallids(comm,index))
     if glist not in groups:
         groups.append(glist)
 print len(getallids(comm,0)), len(groups)
-# print sorted(getallids(comm,3))
